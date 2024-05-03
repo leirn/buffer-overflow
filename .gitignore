@@ -3,3 +3,4 @@ peda-session-*
 .gdb_history
 ex1/ex1
 ex2/ex2
+__pycache__/
