@@ -2,7 +2,7 @@
 
 from pwn import *
 
-WRONG_WAY_ADRESS = 0x08049166
+WRONG_WAY_ADRESS = 0x0
 
 io = process('./ex2')
 print(io.recvline().decode())
