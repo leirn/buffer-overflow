@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-m32 -no-pie -fno-stack-protector
-LDFLAGS=-z noexecstack
+LDFLAGS=-z execstack
 
 SRC=main.c
 OBJ=main.o
